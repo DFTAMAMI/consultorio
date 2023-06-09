@@ -51,13 +51,11 @@ const DrawerNav = () => {
 const RegistroNav = () => {
   return (
     <StackLogin.Navigator>
-
       <Stack.Screen name='Login' component={Login} options={{ headerShown: false }} />
       <Stack.Screen name='Register' component={Register} options={{ headerShown: false }} />
       <Stack.Screen name='RecoverPassword' component={RecoverPassword} options={{ headerShown: false }} />
       <Stack.Screen name='Code' component={Code} options={{ headerShown: false }} />
       <Stack.Screen name='NewPassword' component={NewPassword} options={{ headerShown: false }} />
-
     </StackLogin.Navigator>
   );
 }
